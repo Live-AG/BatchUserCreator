@@ -64,7 +64,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПолноеИмя</v8:content>
+							<v8:content>Полное имя</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -97,7 +97,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПользовательОС</v8:content>
+							<v8:content>Пользователь ОС</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -119,33 +119,103 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПрофилиРолей</v8:content>
+							<v8:content>Пользователь основание</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>10</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПользовательОснование</v8:content>
+							<v8:content>Комментарий</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
-	<defaultFormatIndex>10</defaultFormatIndex>
+	<defaultFormatIndex>11</defaultFormatIndex>
 	<height>1</height>
 	<vgRows>1</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Имя</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>1</beginColumn>
+			<endColumn>1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Пароль</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>4</beginColumn>
+			<endColumn>4</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПолноеИмя</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>0</beginColumn>
+			<endColumn>0</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПользовательОС</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>3</beginColumn>
+			<endColumn>3</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Почта</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>2</beginColumn>
+			<endColumn>2</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПраваДоступа</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>5</beginColumn>
+			<endColumn>5</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПраваДоступа1</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>0</beginRow>
+			<endRow>0</endRow>
+			<beginColumn>6</beginColumn>
+			<endColumn>6</endColumn>
+		</area>
+	</namedItem>
 	<line gap="false" width="1">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<font bold="false" faceName="Arial" height="10" italic="false" kind="Absolute" scale="100" strikeout="false" underline="false"/>
 	<format>
-		<width>211</width>
+		<width>268</width>
 	</format>
 	<format>
 		<width>124</width>
@@ -157,20 +227,29 @@
 		<width>154</width>
 	</format>
 	<format>
-		<width>143</width>
+		<width>167</width>
 	</format>
 	<format>
-		<width>181</width>
+		<width>272</width>
 	</format>
 	<format>
-		<width>224</width>
+		<width>196</width>
 	</format>
 	<format>
-		<height>75</height>
+		<height>80</height>
 	</format>
 	<format>
 		<font>0</font>
 		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<backColor>web:Gainsboro</backColor>
+	</format>
+	<format>
+		<font>0</font>
+		<border>0</border>
+		<height>80</height>
+		<width>272</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<backColor>web:Gainsboro</backColor>

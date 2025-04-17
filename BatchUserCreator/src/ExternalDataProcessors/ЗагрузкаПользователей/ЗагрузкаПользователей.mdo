@@ -1,142 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e31615f-aee3-4f26-bc6c-a949cfc78255">
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef843780-1a1b-45c8-b4d4-0c4247186361">
   <producedTypes>
-    <objectType typeId="ad2e2666-9b8b-4ad5-9de0-5613f3df02b8" valueTypeId="d23e88d0-7870-4c19-a31d-d701e1a646ff"/>
+    <objectType typeId="4d7f387e-4684-4a7e-9bbe-cdf1c7c2705a" valueTypeId="65e4d4d2-eb4c-4faa-a8bd-5af7f3daab21"/>
   </producedTypes>
   <name>ЗагрузкаПользователей</name>
   <synonym>
     <key>ru</key>
     <value>Загрузка пользователей</value>
   </synonym>
-  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="10065349-4654-4e3b-b969-bf31564ae672"/>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="5b15afae-0526-4343-891a-b48d3da8c622"/>
   <defaultForm>ExternalDataProcessor.ЗагрузкаПользователей.Form.Форма</defaultForm>
-  <attributes uuid="13e6f53b-2357-46ba-8ef8-0f4ecc219dd1">
-    <name>Имя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="0acef592-7279-4284-a683-8b2414cc2c17">
-    <name>ПолноеИмя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Полное имя</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="382d032e-5fe6-4cf4-bf5d-a6cf4a184c27">
-    <name>ПользовательОС</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользователь ОС</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="d4260d66-6b09-4322-8887-1617d2810bea">
-    <name>Пароль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пароль</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="3ab4b630-b34c-436a-bc55-9de44d10aac9">
-    <name>Почта</name>
-    <synonym>
-      <key>ru</key>
-      <value>Почта</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="a1bf38b2-4788-4e2c-b21d-920da8aa1d79">
-    <name>ПользовательОснование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользователь основание</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <tabularSections uuid="4aeacd4d-6106-491c-974b-520798ba5615">
-    <producedTypes>
-      <objectType typeId="6ac61362-e53b-45d9-94f3-840a3cfda140" valueTypeId="26364e5e-d1b2-4483-b37c-62d1b8d256c4"/>
-      <rowType typeId="35d895de-7f0b-46bd-9cde-190eacb6b365" valueTypeId="7715c49d-7ea2-4f10-8ca5-8b5c68e894d1"/>
-    </producedTypes>
-    <name>ПрофилиРолей</name>
-    <synonym>
-      <key>ru</key>
-      <value>Профили ролей</value>
-    </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="34b717d0-9b6c-4ef0-9549-60b36c6f9a86">
-      <name>ИмяПрофия</name>
-      <synonym>
-        <key>ru</key>
-        <value>Имя профия</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>150</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
-    </attributes>
-  </tabularSections>
   <forms uuid="f03bd480-64da-4829-bcc8-5ddea848028d">
     <name>Форма</name>
     <synonym>
@@ -146,4 +19,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="25fa3690-22c0-4ed6-a786-f73f6bf89a01">
+    <name>МакетФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет ФИО</value>
+    </synonym>
+  </templates>
 </mdclass:ExternalDataProcessor>
