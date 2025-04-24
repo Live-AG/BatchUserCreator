@@ -199,7 +199,9 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+            <checkBoxType>Switcher</checkBoxType>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -230,7 +232,6 @@
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
-          <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
@@ -1974,7 +1975,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>25</length>
+        <length>100</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -1994,7 +1995,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>25</length>
+        <length>100</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -2177,132 +2178,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>КолонкаПолногоИмени</name>
-    <title>
-      <key>ru</key>
-      <value>Колонка полного имени</value>
-    </title>
-    <id>25</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КолонкаИмени</name>
-    <title>
-      <key>ru</key>
-      <value>Колонка имени</value>
-    </title>
-    <id>26</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КолонкаПочты</name>
-    <title>
-      <key>ru</key>
-      <value>Колонка почты</value>
-    </title>
-    <id>27</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КолонкаПользователяОС</name>
-    <title>
-      <key>ru</key>
-      <value>Колонка пользователя ОС</value>
-    </title>
-    <id>28</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КолонкаПароля</name>
-    <title>
-      <key>ru</key>
-      <value>Колонка пароля</value>
-    </title>
-    <id>29</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КолонкаПравДоступа</name>
-    <title>
-      <key>ru</key>
-      <value>Колонка прав доступа</value>
-    </title>
-    <id>30</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>НомерРелизаПлатформы</name>
     <title>
       <key>ru</key>
@@ -2372,27 +2247,6 @@
       <stringQualifiers>
         <length>50</length>
       </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КолонкаКомментария</name>
-    <title>
-      <key>ru</key>
-      <value>Колонка пароля</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
