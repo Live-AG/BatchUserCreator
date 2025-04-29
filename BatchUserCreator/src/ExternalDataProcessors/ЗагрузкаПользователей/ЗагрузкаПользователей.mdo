@@ -19,6 +19,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="46a3904e-ceaf-467b-939c-4a25e9f4f54a">
+    <name>ФормаСпискаИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка ИБ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="25fa3690-22c0-4ed6-a786-f73f6bf89a01">
     <name>МакетФИО</name>
     <synonym>
