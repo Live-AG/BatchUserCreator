@@ -485,7 +485,9 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
-          <behavior>Auto</behavior>
+          <behavior>Collapsible</behavior>
+          <collapsed>true</collapsed>
+          <controlRepresentation>Picture</controlRepresentation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
@@ -947,7 +949,8 @@
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
           <verticalSpacing>Double</verticalSpacing>
-          <behavior>Auto</behavior>
+          <behavior>Collapsible</behavior>
+          <controlRepresentation>Picture</controlRepresentation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <showTitle>true</showTitle>
@@ -1091,7 +1094,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Группа шаблон</value>
+            <value>Шаблоны заполнения</value>
           </title>
           <toolTip>
             <key>ru</key>
@@ -1134,9 +1137,11 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <verticalSpacing>Single</verticalSpacing>
-            <behavior>Auto</behavior>
+            <behavior>Collapsible</behavior>
+            <controlRepresentation>Picture</controlRepresentation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
+            <showTitle>true</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1444,7 +1449,8 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <verticalSpacing>Single</verticalSpacing>
-            <behavior>Auto</behavior>
+            <behavior>Collapsible</behavior>
+            <controlRepresentation>Picture</controlRepresentation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -1593,7 +1599,8 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <verticalSpacing>Single</verticalSpacing>
-            <behavior>Auto</behavior>
+            <behavior>Collapsible</behavior>
+            <controlRepresentation>Picture</controlRepresentation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -1606,10 +1613,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Заполнение</value>
-        </title>
         <toolTip>
           <key>ru</key>
           <value>Группа заполнение</value>
@@ -1627,7 +1630,6 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
-          <verticalSpacing>Double</verticalSpacing>
           <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
@@ -1759,32 +1761,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <items xsi:type="form:Button">
-      <name>ЗагрузитьВоВнешниеБазы</name>
-      <id>165</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ЗагрузитьВоВнешниеБазыРасширеннаяПодсказка</name>
-        <id>166</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.ЗагрузитьВоВнешниеБазы</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
     <items xsi:type="form:Decoration">
       <name>ДекорацияОтступ</name>
       <id>50</id>
@@ -1844,6 +1820,32 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <groupHorizontalAlign>Right</groupHorizontalAlign>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ЗагрузитьВоВнешниеБазы</name>
+        <id>165</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ЗагрузитьВоВнешниеБазыРасширеннаяПодсказка</name>
+          <id>166</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.ЗагрузитьВоВнешниеБазы</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>

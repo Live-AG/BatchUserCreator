@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </title>
   <items xsi:type="form:Table">
     <name>СписокИнформационныхБаз</name>
     <id>1</id>
@@ -72,6 +76,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -92,6 +97,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокИнформационныхБазВыбор</name>
+    </handlers>
     <searchStringAddition>
       <name>СписокИнформационныхБазСтрокаПоиска</name>
       <id>5</id>
